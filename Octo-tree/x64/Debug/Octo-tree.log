@@ -1,0 +1,36 @@
+﻿  Octo-tree.cpp
+C:\Users\ala11\source\repos\Octo-tree\Octo-tree.cpp(158,20): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\ala11\source\repos\Octo-tree\Octo-tree.cpp(162,20): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\ala11\source\repos\Octo-tree\Octo-tree.cpp(168,23): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:         ]
+  (компиляция исходного файла "Octo-tree.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\ala11\source\repos\Octo-tree\Octo-tree.cpp(202,16):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<Point3D,std::allocator<Point3D>>::emplace_back<int,int,int>(int &&,int &&,int &&)"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(858,24):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int,int,int>(int &&,int &&,int &&)"
+          with
+          [
+              _Ty=Point3D
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(776,20):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,int,int>(int &&,int &&,int &&)"
+          with
+          [
+              _Ty=Point3D
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(794,27):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int>(_Alloc &,_Objty *const ,int &&,int &&,int &&)"
+          with
+          [
+              _Alloc=std::allocator<Point3D>,
+              _Ty=Point3D,
+              _Objty=Point3D
+          ]
+  
+  Octo-tree.vcxproj -> C:\Users\ala11\source\repos\Octo-tree\x64\Debug\Octo-tree.exe
